@@ -1,3 +1,4 @@
+Peter Test
 # Week One - Presentation fundamentals
 
 The project for the first week will be a combination of technical and soft development skills. We will be evaluating your ability to build a web page using the techniques that we will cover in our first week's lectures.
