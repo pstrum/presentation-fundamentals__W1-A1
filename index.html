@@ -43,13 +43,37 @@
 	<section>
 		<h1>list style: bullets.</h1>
 		<h2>a round-up of popular ammunition</h2>
-		<img>
 		<ul>
-			<li>.223<br>Remington<br>69gr BTHP</li>
-			<li>.308<br>winchester<br>168gr BTHP</li>
-			<li>7.62×39mm<br>Russian<br>154gr JSP</li>
-			<li>7.62<br>Thumper<br>220gr RN</li>
-			<li>7.62<br>Thumper<br>240gr BTHP</li>
+			<li>
+				<figure>
+					<img height="" width="" alt="remington bullet" src="images/bullets/remington.png">
+					<figcaption>.223<br>Remington<br>69gr BTHP</figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img height="" width="" alt="Winchester bullet" src="images/bullets/winchester.png">
+					<figcaption>.308<br>winchester<br>168gr BTHP</figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img height="" width="" alt="Russian bullet" src="images/bullets/russian.png">
+					<figcaption>7.62×39mm<br>Russian<br>154gr JSP</figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img height="" width="" alt="Thumper bullet 220" src="images/bullets/thumper.png">
+					<figcaption>7.62<br>Thumper<br>220gr RN</figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+					<img height="" width="" alt="Thumper bullet 240" src="images/bullets/thumper2.png">
+					<figcaption>7.62<br>Thumper<br>240gr BTHP</figcaption>
+				</figure>
+			</li>
 		</ul>
 	</section>
 
@@ -88,18 +112,84 @@
 
 	<!-- Overflow Section, aligned CENTER -->
 	<section>
-		<img>
-		<img src="">
-		<img src="">
-		<img src="">
-		<p>On the night of Aug,8 1975 a line of people frantically pilled sandbags atop Hanem Province's Banqiao Dan while being battered by the worst storm ever recorded in the region. They were in a race with the rapidly rising Ru River to save the dam and the millions of people that lay sleeping downstream. It was a race there were about to lose.</p>
-		<p>Just after 1:00am, the sky cleared and stars emerged from behind the storm clouds. There was an eerie calm as someone yelled, <q> The water level is going down! The flood is retreating!</q></p>
-		<p>There was little chance to enjoy the calm. One survivor recalled that a few seconds later it <q>sounded like the sky was collapsing and the earth was cracking</q> The equivalent of 280,000 Olympic-sized swimming pools burst through the crumbling dam, taking with it entire towns as many as 171,000 lives</p>
+		<article>
+			<img height="" width="" alt="Water spashing." title="Overflow" src='images/overflow/water-text.png'>
+			<p>On the night of Aug,8 1975 a line of people frantically 	pilled sandbags atop Hanem Province's <b>Banqiao Dam</b> while being 	battered by the worst storm ever recorded in the region. They 	were in a race with the rapidly rising Ru River to save the 	dam and the millions of people that lay sleeping downstream. 	It was a race there were about to lose.</p>
+			<p>Just after 1:00am, the sky cleared and stars emerged from 	behind the storm clouds. There was an eerie calm as someone 	yelled, <q> The water level is going down! The flood is 	retreating!</q></p>
+			<p>There was little chance to enjoy the calm. One survivor 	recalled that a few seconds later it <q>sounded like the sky 	was collapsing and the earth was cracking</q> The equivalent 	of 280,000 Olympic-sized swimming pools burst through the 	crumbling dam, taking with it entire towns as many as 171,000 	lives</p>
+		</article>
 	</section>
 
+	<form action="foo" autocomplete="on" name="registration">
+		<fieldset>
+			<input type="text" name="first-name" title="Please enter your first name" placeholder="First Name">
+			<input type="text" name="last-name" title="Please enter your last name" placeholder="Last Name">
+			<input type="date" name="date-born" title="Please enter your date of birth" placeholder="Date of Birth">
+			<input type="email" name="email" title="Please enter your email address" placeholder="Email Address">
+			<input type="text" name="first-name" title="Please enter your first name" placeholder="First Name">
+			<input type="tel" name="phone" title="Please enter your phone number" placeholder="Phone Number">
+			<input type="text" name="address 1st" title="Please enter street address 1" placeholder="Street Address 1">
+			<input type="text" name="address 2st" title="Please enter street address 2" placeholder="Street Address 2">
+			<input type="text" name="city" title="Please enter your city" placeholder="City">
+			<label for="states">Select State</label>
+				<select name ="state" id='states'>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District Of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>
+				</select>
+		</fieldset>
+
 	<footer>
-		<h6>2013 CSSOff, Volume 3</h6>
-		<address>Route Gregory, Building 31<br>01630 Prévessin-Moëns, France<br>+41 22 767 61 11</address>
+		<h1<time pubdate datetime="2013"><b>2013</b></time> <b>CSSOff</b>, Voume 3</h2>
+		<address><b>Route Gregory</b>, Building 31</br>01630 Prévessin-Moëns, France<br>+41 22 767 61 11</address>
 	</footer>
 
 </body>
