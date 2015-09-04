@@ -2,197 +2,266 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>CSS-OFF</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,700,400italic,400|Lora:400italic,700italic|Oswald|Merriweather:400,300,900" rel="stylesheet" type="text/css">
 </head>
 <body>
 
 	<header>
-		<h1>CSS<br>OFF</h1>
-		<h2>Volume 3— <time pubdate datetime="2013-09">September 2013</time></h2>
+		<h1>CSS<br><span>OFF</span></h1>
+		<h2>Volume 3 — <time pubdate datetime="2013-09">September 2013</time></h2>
+		<div class="header-background"></div>
 	</header>
 
-	<!-- Box Model Section, aligned LEFT -->
-	<section>
-		<img height="" width="" alt="Barbie box." src='images/barbie/barbie.png'>
-		<article>
+	<div class="first-section">
+		<article class="first-article">
+			<div class="first-article-shadow"></div>
+			<img height="389" width="450" alt="Barbie box." src='images/barbie/barbie.png'>
 			<h1>Box Model</h1>
-				<p>The Barbie doll was invented in 1959 by Ruth Handler (co-founder of Mattel), whose own daughter was called Barbara. Barbie was introduced to the world at the American Toy Fair in New York City. Barbie's job was teenage fashion doll. The full name of the first doll was Barbie Millicent Roberts, from Willows, Wisconsin.</p>
+			<p>The Barbie doll was invented in 1959 by Ruth Handler (co-founder of Mattel), whose own daughter was called Barbara. Barbie was introduced to the world at the American Toy Fair in New York City. Barbie's job was teenage fashion doll. The full name of the first doll was Barbie Millicent Roberts, from Willows, Wisconsin.</p>
 		</article>
-	</section>
 
-	<!-- Positioning Relatives Section, aligned RIGHT -->
-	<section>
-		<article>
-			<img height="" width="" alt="Young girl on deathbead." src='images/positioning-relatives/positioning-relatives.png'>
-			<h2>feature</h2>
-			<h1>positioning relatives</h1>
+		<article class="second-article">
+			<img class="second-article-main-image" height="548" width="825" alt="Young girl on deathbead" src='images/positioning-relatives/positioning-relatives.png'>
+			<div class="image-shadow"></div>
+			<div class="second-article-content">
+				<h2>feature</h2>
+				<h1>positioning relatives</h1>
 				<p>In 1958, English pictorial photographer Henry Peach 	Robinson created the world’s first photomontage by 	combining five different negatives to make one complete 	print of a young girl on her deathbed. “Fading 	Away”—Robinson’s first and most famous composite 	photo—depicts a young girl dying of consumption and was 	controversial when it was exhibited, with many believing it was not a suitable subject for photography.</p>
+			</div>
 		</article>
-	</section>
+	</div>
 
-	<!-- Staying afloat Section, aligned LEFT -->
-	<section>
-		<article>
+	<div class="second-section">
+		<article class="third-article">
 			<h1>Staying afloat</h1>
 				<p>Lobsterman John Aldridge fell into the shark-infested water of Long Island while his crewmates were asleep. He was kept afloat for more than 12 hours by his rubber boots, which he used as flotation devices. The coast guard rescued him 43 miles south of Montauk where he fell off his vessel.</p>
-			<img height="" width="" alt="Green rain boots." src='images/boot/boot.png'>
+			<img class="third-article-image" height="" width="" alt="Green rain boots." src='images/boot/boot.png'>
 		</article>
-	</section>
 
-	<!-- List Style Bullets Section, aligned RIGHT -->
-	<section>
-		<h1>list style: bullets.</h1>
-		<h2>a round-up of popular ammunition</h2>
-		<ul>
-			<li>
-				<figure>
-					<img height="" width="" alt="remington bullet" src="images/bullets/remington.png">
-					<figcaption>.223<br>Remington<br>69gr BTHP</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img height="" width="" alt="Winchester bullet" src="images/bullets/winchester.png">
-					<figcaption>.308<br>winchester<br>168gr BTHP</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img height="" width="" alt="Russian bullet" src="images/bullets/russian.png">
-					<figcaption>7.62×39mm<br>Russian<br>154gr JSP</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img height="" width="" alt="Thumper bullet 220" src="images/bullets/thumper.png">
-					<figcaption>7.62<br>Thumper<br>220gr RN</figcaption>
-				</figure>
-			</li>
-			<li>
-				<figure>
-					<img height="" width="" alt="Thumper bullet 240" src="images/bullets/thumper2.png">
-					<figcaption>7.62<br>Thumper<br>240gr BTHP</figcaption>
-				</figure>
-			</li>
-		</ul>
-	</section>
+		<section class="bullets">
+			<div class="bullets-header">
+				<h1>list style: bullets.</h1>
+				<h2>a round-up of popular ammunition</h2>
+			</div>
+			<ul class="bullets-list">
+				<li>
+					<figure>
+						<img height="300" width="150" alt="remington bullet" src="images/bullets/remington.png">
+						<figcaption>
+							<ul>
+								<li class="remington-caliber">.223</li>
+								<li class="remington-name">REMINGTON</li>
+								<li class="remington-size">69gr BTHP</li>
+							</ul>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img height="300" width="150" alt="Winchester bullet" src="images/bullets/winchester.png">
+						<figcaption>
+							<ul>
+								<li class="winchester-caliber">.308</li>
+								<li class="winchester-name">WINCHESTER</li>
+								<li class="winchester-size">168gr BTHP</li>
+							</ul>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img height="300" width="150" alt="Russian bullet" src="images/bullets/russian.png">
+						<figcaption>
+							<ul>
+								<li class="russian-caliber">7.62×39mm</li>
+								<li class="russian-name">RUSSIAN</li>
+								<li class="russian-size">154gr JSP</li>
+							</ul>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img height="300" width="150" alt="Thumper bullet 220" src="images/bullets/thumper.png">
+						<figcaption>
+							<ul>
+								<li class="thumper-caliber">7.62</li>
+								<li class="thumper-name-220">THUMPER</li>
+								<li class="thumper-size-220">220gr RN</li>
+							</ul>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img height="300" width="150" alt="Thumper bullet 240" src="images/bullets/thumper2.png">
+						<figcaption>
+							<ul>
+								<li class="thumper-caliber">7.62</li>
+								<li class="thumper-name-240">THUMPER</li>
+								<li class="thumper-size-240">240gr BTHP</li>
+							</ul>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</section>
+	</div>
 
-	<!-- Famous Blocks Section, aligned CENTER -->
-	<section>
-		<article>
-			<h1>displaying (famous) blocks</h1>
-			<img height="" width="" alt="Abbey road album cover." src='images/famous-blocks/beatles.jpg'>
-			<p>Abbey Road is a thoroughfare located in the borough of Camden 	and the City of Westminster in London, running roughly northwest 	to southeast through St. John’s Wood, near Lord’s Cricket Ground. 	It is part of the B507. This road is best known for the Abbey Road 	Studios and the 1969 album, Abbey Road, by The Beatles.</p>
-			<p><cite>Photo: <a href="goo.gl/h44dc9">goo.gl/h44dc9</a></cite></p>
+	<div class="third-section">
+		<article class="fourth-article">
+			<div class="fourth-article-header">
+				<h1>DISPLAYING (FAMOUS) BLOCKS</h1>
+			</div>
+			<div class="fourth-article-images">
+				<img height="642" width="976" alt="Abbey road album cover." src='images/famous-blocks/beatles.jpg'>
+				<img class="london-map" height="130" width="130" alt="Map of London" src="images/famous-blocks/maps.png">
+			</div>
+			<div class="fourth-article-content">
+				<p >Abbey Road is a thoroughfare located in the borough of Camden 	and the City of Westminster in London, running roughly northwest 	to southeast through St. John’s Wood, near Lord’s Cricket Ground. 	It is part of the B507. This road is best known for the Abbey Road 	Studios and the 1969 album, Abbey Road, by The Beatles.</p>
+				<cite class="photo-citation">Photo: <a href="goo.gl/h44dc9">goo.gl/h44dc9</a></cite>
+			</div>
 		</article>
-	</section>
+	</div>
 
 	<!-- Border Bottom Section, aligned LEFT -->
-	<section>
-		<article>
-			<img height="" width="" alt="Upside-down faces." src='images/border-bottom/heads.jpg'>
-			<h1>Border Bottom Line</h1>
-			<h2>Awful immigration laws from around the world.</h2>
-				<p><b>Italy</b> penalizes illegal immigrants with a fine of <abbr title="euro">&euro;</abbr>5,000-10,000 and allows immigration officials to detain them for up to 6 months. •  <b>Switzerland</b> immediately deports all convicted criminals from other countries and potentially even their family members. •  <b>Australia</b> detains all non-citizens without a valid visa.•  <b>Japan</b> is allowed to pay <abbr title="dollar">&dollar;</abbr>3,000 to each unemployed Latin Americn immigrant of Japanese descent and <abbr title="dollar">&dollar;</abbr>2,000 to each of that unemployed worker’s family members to return to their country of origin.• The <b>United Arab Emirates</b> prohibits foreigners from engaging in any sort of labor union-like activity, resulting in harsh living conditions, 80-hour work weeks, back-breaking manual labor, and below-minimum-wage pay.</p>
-		</article>
-	</section>
+	
+	<div class='heads-image'>
+		<img height="" width="" alt="Upside-down faces." src='images/border-bottom/heads.jpg'>
+	</div>
+	<div class="bottom-section">
+		<div class='heads-and-transformers'>
+			<article class='headers'>
+				<div class="heads-titles">
+					<h1>Border Bottom Line</h1>
+					<h2>Awful immigration laws from around the world.</h2>
+				</div>
+				<div class='heads'>
+					<p><b>Italy</b> penalizes illegal immigrants with a fine of <abbr title="euro">&euro;</abbr>5,000-10,000 and allows immigration officials to detain them for up to 6 months. •  <b>Switzerland</b> immediately deports all convicted criminals from other countries and potentially even their family members. •  <b>Australia</b> detains all non-citizens without a valid visa.•  <b>Japan</b> is allowed to pay <abbr title="dollar">&dollar;</abbr>3,000 to each unemployed Latin Americn immigrant of Japanese descent and <abbr title="dollar">&dollar;</abbr>2,000 to each of that unemployed worker’s family members to return to their country of origin.• The <b>United Arab Emirates</b> prohibits foreigners from engaging in any sort of labor union-like activity, resulting in harsh living conditions, 80-hour work weeks, back-breaking manual labor, and below-minimum-wage pay.</p>
+				</div>
+			</article>
 
-	<!-- TRANSFORMERS Section, aligned RIGHT -->
-	<section>
-		<article>
-			<img height="" width="" alt="Transformers blue ray case." src='images/transformers/transformers-box-art.png'>
-			<h1>Transformers</h1>
-			<h2>Revenge of the fallen</h2>
-			<p><cite="www.google.com">A noisy, underplotted, and overlong special effects extravaganza 	that lacks a human touch</cite></p>
-			<p>Rotten Tomato<br>Rating<br><meter min="0" max="100" value="20">20%</meter></p>
-			<p>World premiere</p>
-			<p>Den Haag Theatre<br><span>The Netherlands</span><br><time datetime="2011-06-23">June 23, 2011</time></p>
-		</article>
-	</section>
+		<!-- TRANSFORMERS Section, aligned RIGHT -->
+			<article class='transformers'>
+				<div class="transformers-image">
+					<img height="244" width="185" alt="Transformers blue ray case." src='images/transformers/transformers-box-art.png'>
+				</div>
+				<div class="transformers-titles">
+					<h1>Transformers</h1>
+					<h2>Revenge of the fallen</h2>
+				</div>
+				<div class="transformers-quote">
+					<p><cite="www.google.com">A noisy, underplotted, and overlong special effects extravaganza 	that lacks a human touch</cite></p>
+				</div>
+				<div class="transformers-rotten">
+					<div class="rotten-header">
+						<p>Rotten Tomato<br><span class="rating">Rating<br></span></p>
+					</div>
+					<div class="rotten-number">20%
+					</div>
+					<div class="transformers-meter">
+					</div>
+					<meter hidden min="0" max="100" value="20"></meter>
+				</div>
+				<div class="transformers-premier">
+					<div class="premier-header">
+						<p>World premiere</p>
+					</div>
+					<p class="premier-theater">Den Haag Theatre<br><span class="premier-location">The Netherlands</span><br><time datetime="2011-06-23">June 23, 2011</time></p>
+				</div>
+			</article>
+		</div>
 
-	<!-- Overflow Section, aligned CENTER -->
-	<section>
-		<article>
-			<img height="" width="" alt="Water spashing." title="Overflow" src='images/overflow/water-text.png'>
-			<p>On the night of Aug,8 1975 a line of people frantically 	pilled sandbags atop Hanem Province's <b>Banqiao Dam</b> while being 	battered by the worst storm ever recorded in the region. They 	were in a race with the rapidly rising Ru River to save the 	dam and the millions of people that lay sleeping downstream. 	It was a race there were about to lose.</p>
-			<p>Just after 1:00am, the sky cleared and stars emerged from 	behind the storm clouds. There was an eerie calm as someone 	yelled, <q> The water level is going down! The flood is 	retreating!</q></p>
-			<p>There was little chance to enjoy the calm. One survivor 	recalled that a few seconds later it <q>sounded like the sky 	was collapsing and the earth was cracking</q> The equivalent 	of 280,000 Olympic-sized swimming pools burst through the 	crumbling dam, taking with it entire towns as many as 171,000 	lives</p>
-		</article>
-	</section>
+		<!-- Overflow Section, aligned CENTER -->
+		<div>
+			<article class="overflow">
+				<img class='overflow-image' height="" width="" alt="Water spashing." title="Overflow" src='images/overflow/water-text.png'>
+				<p>On the night of Aug,8 1975 a line of people frantically 	pilled sandbags atop Hanem Province's <b>Banqiao Dam</b> while being 	battered by the worst storm ever recorded in the region. They 	were in a race with the rapidly rising Ru River to save the 	dam and the millions of people that lay sleeping downstream. 	It was a race there were about to lose.</p>
+				<p>Just after 1:00am, the sky cleared and stars emerged from 	behind the storm clouds. There was an eerie calm as someone 	yelled, <q> The water level is going down! The flood is 	retreating!</q></p>
+				<p>There was little chance to enjoy the calm. One survivor 	recalled that a few seconds later it <q>sounded like the sky 	was collapsing and the earth was cracking</q> The equivalent 	of 280,000 Olympic-sized swimming pools burst through the 	crumbling dam, taking with it entire towns as many as 171,000 lives</p>
+			</article>
+		</div>
 
-	<form action="foo" autocomplete="on" name="registration">
-		<fieldset>
-			<input type="text" name="first-name" title="Please enter your first name" placeholder="First Name">
-			<input type="text" name="last-name" title="Please enter your last name" placeholder="Last Name">
-			<input type="date" name="date-born" title="Please enter your date of birth" placeholder="Date of Birth">
-			<input type="email" name="email" title="Please enter your email address" placeholder="Email Address">
-			<input type="text" name="first-name" title="Please enter your first name" placeholder="First Name">
-			<input type="tel" name="phone" title="Please enter your phone number" placeholder="Phone Number">
-			<input type="text" name="address 1st" title="Please enter street address 1" placeholder="Street Address 1">
-			<input type="text" name="address 2st" title="Please enter street address 2" placeholder="Street Address 2">
-			<input type="text" name="city" title="Please enter your city" placeholder="City">
-			<label for="states">Select State</label>
-				<select name ="state" id='states'>
-						<option value="AL">Alabama</option>
-						<option value="AK">Alaska</option>
-						<option value="AZ">Arizona</option>
-						<option value="AR">Arkansas</option>
-						<option value="CA">California</option>
-						<option value="CO">Colorado</option>
-						<option value="CT">Connecticut</option>
-						<option value="DE">Delaware</option>
-						<option value="DC">District Of Columbia</option>
-						<option value="FL">Florida</option>
-						<option value="GA">Georgia</option>
-						<option value="HI">Hawaii</option>
-						<option value="ID">Idaho</option>
-						<option value="IL">Illinois</option>
-						<option value="IN">Indiana</option>
-						<option value="IA">Iowa</option>
-						<option value="KS">Kansas</option>
-						<option value="KY">Kentucky</option>
-						<option value="LA">Louisiana</option>
-						<option value="ME">Maine</option>
-						<option value="MD">Maryland</option>
-						<option value="MA">Massachusetts</option>
-						<option value="MI">Michigan</option>
-						<option value="MN">Minnesota</option>
-						<option value="MS">Mississippi</option>
-						<option value="MO">Missouri</option>
-						<option value="MT">Montana</option>
-						<option value="NE">Nebraska</option>
-						<option value="NV">Nevada</option>
-						<option value="NH">New Hampshire</option>
-						<option value="NJ">New Jersey</option>
-						<option value="NM">New Mexico</option>
-						<option value="NY">New York</option>
-						<option value="NC">North Carolina</option>
-						<option value="ND">North Dakota</option>
-						<option value="OH">Ohio</option>
-						<option value="OK">Oklahoma</option>
-						<option value="OR">Oregon</option>
-						<option value="PA">Pennsylvania</option>
-						<option value="RI">Rhode Island</option>
-						<option value="SC">South Carolina</option>
-						<option value="SD">South Dakota</option>
-						<option value="TN">Tennessee</option>
-						<option value="TX">Texas</option>
-						<option value="UT">Utah</option>
-						<option value="VT">Vermont</option>
-						<option value="VA">Virginia</option>
-						<option value="WA">Washington</option>
-						<option value="WV">West Virginia</option>
-						<option value="WI">Wisconsin</option>
-						<option value="WY">Wyoming</option>
-				</select>
-		</fieldset>
+		<footer>
+			<h1 class="footer-left"<time pubdate datetime="2013"><b>2013</b></time> <b>CSSOff</b>, <span>Voume 3</span></h1>
+			<address class="footer-right"><b>Route Gregory</b>, Building 31</br>01630 Prévessin-Moëns, France<br>+41 22 767 61 11</address>
+		</footer>
 
-	<footer>
-		<h1><b><time pubdate datetime="2013">2013</time> CSSOff,</b> Volume 3</h1>
-		<address><b>Route Gregory</b>, Building 31</br>01630 Prévessin-Moëns, France<br>+41 22 767 61 11</address>
-	</footer>
+		<form action="foo" autocomplete="on" name="registration">
+			<fieldset>
+				<input type="text" name="first-name" title="Please enter your first name" placeholder="First Name">
+				<input type="text" name="last-name" title="Please enter your last name" placeholder="Last Name">
+				<input type="date" name="date-born" title="Please enter your date of birth" placeholder="Date of Birth">
+				<input type="email" name="email" title="Please enter your email address" placeholder="Email Address">
+				<input type="text" name="first-name" title="Please enter your first name" placeholder="First Name">
+				<input type="tel" name="phone" title="Please enter your phone number" placeholder="Phone Number">
+				<input type="text" name="address 1st" title="Please enter street address 1" placeholder="Street Address 1">
+				<input type="text" name="address 2st" title="Please enter street address 2" placeholder="Street Address 2">
+				<input type="text" name="city" title="Please enter your city" placeholder="City">
+				<label for="states">Select State</label>
+					<select name ="state" id='states'>
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District Of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>
+					</select>
+				<input type="checkbox" name="permission"> Yes, add me  to the mailing list.
+				<input type="submit" name="submit">
+			</fieldset>
+		</form>
+		
+	</div>
 
 </body>
 </html>
